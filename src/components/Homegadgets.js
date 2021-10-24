@@ -7,7 +7,7 @@ const Homegadgets = () => {
   const listItem = product_card.map((item) => (
     <div className="best_card" key={item.id}>
       <div className="best_card_img">
-        <img className="best_img" src={item.thumb} />
+        <img className="best_img" src={item.thumb} alt={item.product_name} />
       </div>
       <div className="card_header">
         <h2 className="best_h2">{item.product_name}</h2>
@@ -21,14 +21,10 @@ const Homegadgets = () => {
     </div>
   ));
   return (
-    <div className="main_content">
-      <h3 className="best_title">
-        <hr />
-        Home Gadgets
-      </h3>
-
-      {listItem}
-    </div>
+    <>
+      <h2 className="store_title">Home Gadgets</h2>
+      <div className="main_content">{listItem}</div>
+    </>
   );
 };
 export default Homegadgets;

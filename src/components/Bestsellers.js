@@ -7,7 +7,7 @@ const Bestsellers = () => {
   const listItem = product_card.map((item) => (
     <div className="best_card" key={item.id}>
       <div className="best_card_img">
-        <img className="best_img" src={item.thumb} />
+        <img className="best_img" alt={item.product_name} src={item.thumb} />
       </div>
       <div className="card_header">
         <h2 className="best_h2">{item.product_name}</h2>
@@ -21,14 +21,12 @@ const Bestsellers = () => {
     </div>
   ));
   return (
-    <div className="main_content">
-      <h3 className="best_title">
-        <hr />
+    <>
+      <h2 className="store_title" id="best_title">
         Best Sellers
-      </h3>
-
-      {listItem}
-    </div>
+      </h2>
+      <div className="main_content">{listItem}</div>
+    </>
   );
 };
 export default Bestsellers;

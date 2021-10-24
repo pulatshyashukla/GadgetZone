@@ -1,29 +1,24 @@
 const store_data = [
   {
     id: 1,
-    product_name: "Writing Tablet",
+    product_name: "Satyam Electonics",
     description:
-      "HD Electronic LCD Writing Tablet for Kids Touchpad Board 8.5 Inch",
-    price: 330,
-    currency: "IND",
-    thumb: "./images/2.png",
+      "All kinds of Electonics items are available here come vist us.",
+    thumb: "./images/satyam.png",
   },
   {
     id: 2,
-    product_name: "Gaming Laptop",
+    product_name: "Arya Electonics",
     description:
-      "ASUS TUF Gaming F15, 15.6-inch, Core i5-10300H 10th Gen, GTX 1650 Ti 4GB Graphics",
-    price: 54699,
-    currency: "IND",
-    thumb: "./images/1.png",
+      "All kinds of Electonics items are available here come vist us.",
+    thumb: "./images/arya.png",
   },
   {
     id: 3,
-    product_name: "Zeb Music Bomb X Mini",
-    description: "ZEBRONICS Portable Bluetooth v5.0 speaker with 5W Output",
-    price: 1299,
-    currency: "IND",
-    thumb: "./images/3.png",
+    product_name: "Ambe Electonics",
+    description:
+      "All kinds of Electonics items are available here come vist us.",
+    thumb: "./images/ambe.png",
   },
 ];
 export default store_data;

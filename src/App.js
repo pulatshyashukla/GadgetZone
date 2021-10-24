@@ -1,18 +1,28 @@
 import "./App.css";
-import Card from "./components/Card";
+import Brands from "./components/Brands";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Navigation from "./components/Navigation";
-import Slider from "./components/Slider";
+import Home from "./components/Home";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar title="Gadget Zone" />
-      <Navigation />
-      <Slider />
-      <Card />
-      <Footer />
+      <Router>
+        <Navbar />
+        <div>
+          <Switch>
+            <Route exact path="/brands">
+              <Brands />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 }

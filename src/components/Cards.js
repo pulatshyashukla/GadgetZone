@@ -14,7 +14,7 @@ function Cards(props) {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nemo
             eius voluptate
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="/" className="btn btn-primary">
             Shop Now
           </a>
         </div>

@@ -3,10 +3,6 @@ import Cards from "./Cards";
 import img1 from "./../assets/images/tv2.jpg";
 import img2 from "./../assets/images/iphone.png";
 import img3 from "./../assets/images/watch.jpg";
-import Bestsellers from "./Bestsellers";
-import Homegadgets from "./Homegadgets";
-import Store from "./Store";
-import Info from "./Info";
 
 class Card extends Component {
   render() {
@@ -25,10 +21,7 @@ class Card extends Component {
             </div>
           </div>
         </div>
-        <Homegadgets />
-        <Bestsellers />
-        <Store />
-        <Info />
+        <br />
       </>
     );
   }

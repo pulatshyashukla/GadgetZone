@@ -4,14 +4,22 @@ function Info() {
   return (
     <>
       <div className="img_box">
-        <div className="Img1">
-          <img src="./images/freeshipping.png" alt="freeshipping" />
+        <div>
+          <img
+            src="./images/freeshipping.png"
+            alt="freeshipping"
+            className="Img"
+          />
         </div>
-        <div className="Img2">
-          <img src="./images/fastdelivery.png" alt="fastdelivery" />
+        <div>
+          <img
+            src="./images/fastdelivery.png"
+            alt="fastdelivery"
+            className="Img"
+          />
         </div>
-        <div className="Img3">
-          <img src="./images/bigschoice.png" alt="bigchoice" />
+        <div>
+          <img src="./images/bigschoice.png" alt="bigchoice" className="Img" />
         </div>
       </div>
     </>

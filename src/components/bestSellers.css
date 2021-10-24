@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+.store_title {
+  font-family: Ubuntu;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
 .main_content {
   display: flex;
   align-items: center;
@@ -22,7 +31,7 @@
   font-size: 3.5rem;
 }
 .best_card {
-  top: 80px;
+  top: 50px;
   width: 30%;
   border-radius: 15px;
   display: flex;
