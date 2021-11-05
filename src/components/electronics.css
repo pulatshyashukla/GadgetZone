@@ -7,9 +7,14 @@
 }
 
 #brands {
+  padding: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  flex-wrap: wrap;
   margin-top: 1.5rem;
   padding-bottom: 4rem;
 }
@@ -23,6 +28,7 @@
   overflow: hidden;
   width: 280px;
   margin-right: 1.2rem;
+  margin-bottom: 2rem;
   cursor: pointer;
 }
 .card-header {
@@ -39,5 +45,23 @@
 .card-title {
   height: 25px;
   text-align: center;
-  /* font-family: Ubuntu; */
+  font-family: Ubuntu;
+  font-size: 26px;
+}
+.card-description {
+  padding-left: 1rem;
+}
+.card-btn {
+  text-align: center;
+  padding: 2px 20px;
+  /* width: 130px; */
+  height: 35px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 17px;
+}
+.card-btn:hover {
+  background-color: rgb(228, 165, 49);
+  color: white;
 }

@@ -8,7 +8,7 @@ import Store from "./Store";
 function Home() {
   return (
     <>
-      <div class="btn-group  d-flex justify-content-center mb-1">
+      <div class="btn-group  d-flex justify-content-center mb-2 mt-2">
         <a href="/" class="btn btn-outline-dark me-2">
           Desktop
         </a>

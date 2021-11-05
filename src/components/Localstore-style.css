@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: rgba(128, 124, 124, 0.3);
+}
+.header h1 {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.search-field {
+  height: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+}
+.location {
+  width: 400px;
+  padding: 20px;
+}
+.stores {
+  width: 200px;
+}
+.search-btn {
+  height: 50px;
+  width: 150px;
+  background: rgb(80, 164, 243);
+  color: #000;
+  border-radius: 15px;
+}
+.search-btn:hover {
+  background: rgb(21, 109, 192);
+  cursor: pointer;
+}
+.form-box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.store-link {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-family: sans-serif;
+  background: rgba(247, 230, 211, 0.9);
+}
+.item-list {
+  display: flex;
+  padding: 10px;
+}
+.store-link ul li {
+  list-style: none;
+  font-size: 1.5em;
+  margin-left: 1.5rem;
+  margin-right: 1.2rem;
+}
+.store-link ul li a {
+  color: #000;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.store-link ul li a:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}

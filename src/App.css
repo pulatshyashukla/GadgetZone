@@ -1,7 +1,16 @@
+body {
+  background: -webkit-radial-gradient(
+    center top,
+    rgb(252, 252, 252),
+    rgb(227, 225, 230)
+  );
+}
+
 footer {
   background: black;
   color: white;
-  padding: 9px 20px;
+  padding: 20px;
+  margin-top: 1rem;
 }
 .center {
   text-align: center;

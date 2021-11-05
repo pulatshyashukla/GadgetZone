@@ -12,6 +12,10 @@ function Brandproducts() {
           </div>
           <div className="card-content">
             <h3 className="card-title">Realme</h3>
+            <p className="card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates, sunt explicabo nisi natus harum recusandae.
+            </p>
           </div>
         </div>
         <div className="brands-card">
@@ -20,6 +24,10 @@ function Brandproducts() {
           </div>
           <div className="card-content">
             <h3 className="card-title">LG</h3>
+            <p className="card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates, sunt explicabo nisi natus harum recusandae.
+            </p>
           </div>
         </div>
         <div className="brands-card">
@@ -32,6 +40,10 @@ function Brandproducts() {
           </div>
           <div className="card-content">
             <h3 className="card-title">Philips</h3>
+            <p className="card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates, sunt explicabo nisi natus harum recusandae.
+            </p>
           </div>
         </div>
         <div className="brands-card">
@@ -40,6 +52,10 @@ function Brandproducts() {
           </div>
           <div className="card-content">
             <h3 className="card-title">nVidia</h3>
+            <p className="card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates, sunt explicabo nisi natus harum recusandae.
+            </p>
           </div>
         </div>
       </div>

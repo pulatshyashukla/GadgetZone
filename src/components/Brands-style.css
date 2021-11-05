@@ -1,13 +1,16 @@
 #brand-name {
   display: flex;
+  flex-shrink: shrink;
   /* top: 1.5rem; */
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  font-family: sans-serif;
   background-color: rgb(207, 203, 203);
 }
 .brand-bar {
   display: flex;
+  margin-top: 10px;
 }
 #brand-name ul li {
   list-style: none;
@@ -20,8 +23,8 @@
 #brand-name ul li a {
   color: black;
   display: block;
-  padding: 0.1rem;
-  border-radius: 25px;
+  padding: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 #brand-name ul li a:hover {
